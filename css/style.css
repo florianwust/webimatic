@@ -1,0 +1,70 @@
+/* ---- HEADER ---- */
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#main-nav,
+.logo {
+    display: inline-block;
+}
+
+.nav,
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Dropdowns */
+
+.nav ul {
+    position: absolute;
+    top: 2.5em;
+    left: -9999px;
+    opacity: 0;
+    -webkit-transition: 0.1s linear opacity;
+}
+
+.nav li {
+    float: left;
+    position: relative;
+    height: 40px;
+    margin: 0;
+    line-height: 40px;
+    background-color: #5C6BC0;
+}
+
+/* Top level nav items */
+
+.nav li > a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    width: 100%;
+}
+
+/* Top level hover state, preserve hover state when hovering dropdown  */
+
+.nav li:hover ul,
+.nav li:focus ul,
+ul.show-menu {
+    top: 40px;
+    left: 0;
+    width: 100%;
+    opacity: 0.99;
+}
+
+.nav ul li {
+    float: none;
+    position: static;
+}
+
+.nav ul a {
+    display: block;
+    float: none;
+    font-size: 12px;
+}
