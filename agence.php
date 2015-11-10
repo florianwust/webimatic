@@ -1,12 +1,38 @@
 <?php include 'header.html'; ?>
-		<div id="fil-ariane">
-		   Vous êtes dans :
-		   <a href="index.php">Accueil</a> > Agence
-		</div>
-		<div id="main" role="main">
-			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo aperiam a sapiente impedit, corporis quisquam tempore nihil in blanditiis aliquid harum quod, iusto, molestiae. Provident, nesciunt? Accusamus nostrum aspernatur amet?</div>
-			<div>Aliquam ab pariatur natus nulla modi nemo minima exercitationem dicta alias tenetur necessitatibus, animi vero iste maiores inventore recusandae laborum odio eius, id. Enim voluptatem fugiat et, dolor provident vel.</div>
-			<div>Neque, asperiores, sequi. Deserunt reiciendis consequatur dolorem, voluptas vero pariatur maxime magnam sit mollitia quis! Deleniti perferendis animi modi neque praesentium quod ex aut, quisquam expedita adipisci maiores, consequuntur qui.</div>
-			<div>Doloribus tempore facere dolores, magni qui atque velit quis perspiciatis quisquam ducimus omnis! Rem, porro doloremque rerum animi quibusdam assumenda. Provident vitae aspernatur aliquam itaque, quos perspiciatis reprehenderit eveniet est!</div>
-		</div>
+<div class="px-video-container" id="myvid">
+	<div class="px-video-img-captions-container">
+		<div class="px-video-captions hide"></div>
+		<video width="640" height="360" poster="media/poster_PayPal_Austin2.jpg" controls>
+			<!-- video files -->
+			<source src="https://www.paypalobjects.com/webstatic/mktg/videos/PayPal_AustinSMB_baseline.mp4" type="video/mp4" />
+			<source src="https://www.paypalobjects.com/webstatic/mktg/videos/PayPal_AustinSMB_baseline.webm" type="video/webm" />
+			
+			<!-- text track file -->
+			<track kind="captions" label="Sous Titre" src="media/captions_PayPal_Austin_en.vtt" srclang="en" default />
+			
+			<!-- fallback for browsers that don't support the video element -->
+			<div>
+				<a href="https://www.paypalobjects.com/webstatic/mktg/videos/PayPal_AustinSMB_baseline.mp4">
+					<img src="media/poster_PayPal_Austin2.jpg" width="640" height="360" alt="download video" />
+				</a>
+			</div>
+		</video>
+	</div><!-- end container for captions and video -->
+	<div class="px-video-controls"></div>
+</div><!-- end video container -->
+
+
+<script src="js/px-video.js"></script>
+
+<script>
+// Initialize
+new InitPxVideo({
+	"videoId": "myvid",
+	"captionsOnDefault": true,
+	"seekInterval": 20,
+	"videoTitle": "Présentation Webimatic",
+	"debug": false
+});
+</script>
+
 <?php include 'footer.html'; ?>
