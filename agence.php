@@ -45,6 +45,6 @@ new InitPxVideo({
 	"debug": false
 });
 </script>
-
+</div>
 
 <?php include 'footer.html'; ?>
