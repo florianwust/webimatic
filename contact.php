@@ -1,5 +1,6 @@
 <?php
 include 'header.html'; ?>
+	<div class="wrapper">
 		<div id="main" role="main">
 			<h1>Contactez nous !</h1>
 
@@ -22,5 +23,7 @@ include 'header.html'; ?>
 <br/>
 <p><span class="red">*</span> Champs obligatoires</p>
 		</div>
+		
+	</div>
 <?php
 include 'footer.html'; ?>

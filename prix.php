@@ -1,5 +1,6 @@
 <?php include 'header.html'; ?>
-<table summary="Tableau présentant les différents tarifs des prestations de l'agence Webimatic" id="megaTab">
+<div class="wrapper">
+  <table summary="Tableau présentant les différents tarifs des prestations de l'agence Webimatic" id="megaTab">
   <caption>Nos tarifs</caption>
   <tbody>
     <tr>
@@ -21,4 +22,5 @@
     </tr>
   </tbody>
 </table>
+</div>
 <?php include 'footer.html'; ?>
