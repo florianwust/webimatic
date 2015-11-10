@@ -1,7 +1,7 @@
 <?php include 'header.html'; ?>
 		<div id="fil-ariane">
 		   Vous êtes dans :
-		   Accueil >
+		   <a href="index.php">Accueil</a> > Agence
 		</div>
 		<div id="main" role="main">
 			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo aperiam a sapiente impedit, corporis quisquam tempore nihil in blanditiis aliquid harum quod, iusto, molestiae. Provident, nesciunt? Accusamus nostrum aspernatur amet?</div>
