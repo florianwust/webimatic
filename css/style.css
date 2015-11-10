@@ -1,4 +1,12 @@
 /* ---- GENERAL ---- */
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
 ol, ul {
   list-style: none; 
 }
@@ -60,7 +68,7 @@ ol, ul {
 .nav li:hover ul,
 .nav li:focus ul,
 ul.show-menu {
-    top: 40px;
+    top: 65px;
     left: 0;
     width: 100%;
     opacity: 0.99;
@@ -82,4 +90,54 @@ td,
 tr {
     padding: 5px;
     border: 1px solid #000;
+}
+
+header{
+    background-color: #E7776E;
+    color: #fff;
+    height: 65px;
+    margin-left: 0px !important;
+}
+
+.logo{
+    height: 65px;
+}
+
+.logo a{
+    line-height: 60px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul{
+    height: 65px !important;
+    background-color: #E7776E;
+}
+
+.nav li{
+    height: 65px !important;
+    line-height: 65px;
+    background-color: #E7776E;
+    transition-duration: 0.3s;
+}
+
+#fil-ariane{
+    margin-bottom: 50px;
+    color: #6E6E6E;
+    font-style: italic;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: #E7776E;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.active,
+.nav li:hover{
+    background-color: #984F49 !important;
+    transition-duration: 0.3s;
 }
