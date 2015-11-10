@@ -122,7 +122,6 @@ nav ul{
 }
 
 #fil-ariane{
-    margin-bottom: 50px;
     color: #6E6E6E;
     font-style: italic;
 }
@@ -156,4 +155,17 @@ textarea{
 
 input[type=submit]{
     margin-top: 20px;
+
+.home .skills {
+
+}
+.home .skills h3 {
+    color: #4B4B4D;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.home .skills p {
+    color: #515153;
+    text-align: justify;
 }

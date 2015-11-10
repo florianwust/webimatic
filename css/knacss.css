@@ -397,6 +397,10 @@ table {
 .txtcenter {
     text-align: center
 }
+.imgcenter {
+    display: block;
+    margin: 0 auto;
+}
 .fl {
     float: left
 }

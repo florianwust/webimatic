@@ -1,4 +1,15 @@
 <?php include 'header.html'; ?>
+<script>
+$(document).ready(function() {
+	$("#Menu_Agency").addClass('active');
+});
+</script>
+<div class="wrapper home">
+	<div id="fil-ariane">
+		Vous êtes dans :
+		Accueil > Agence
+	</div>
+	<h2>L'Agence</h2>
 <div class="px-video-container" id="myvid">
 	<div class="px-video-img-captions-container">
 		<div class="px-video-captions hide"></div>
@@ -34,5 +45,6 @@ new InitPxVideo({
 	"debug": false
 });
 </script>
+
 
 <?php include 'footer.html'; ?>
