@@ -141,3 +141,19 @@ footer{
     background-color: #984F49 !important;
     transition-duration: 0.3s;
 }
+.red{
+    color: red;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 50%;
+    background-color: rgba(231, 119, 110, 0.3);
+    border: 0;
+    color: #292929;
+    padding: 10px;
+}
+
+input[type=submit]{
+    margin-top: 20px;
+}

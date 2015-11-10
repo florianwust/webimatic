@@ -1,8 +1,26 @@
-<?php include 'header.html'; ?>
+<?php
+include 'header.html'; ?>
 		<div id="main" role="main">
-			<h1>Contact</h1>
-			<div>Aliquam ab pariatur natus nulla modi nemo minima exercitationem dicta alias tenetur necessitatibus, animi vero iste maiores inventore recusandae laborum odio eius, id. Enim voluptatem fugiat et, dolor provident vel.</div>
-			<div>Neque, asperiores, sequi. Deserunt reiciendis consequatur dolorem, voluptas vero pariatur maxime magnam sit mollitia quis! Deleniti perferendis animi modi neque praesentium quod ex aut, quisquam expedita adipisci maiores, consequuntur qui.</div>
-			<div>Doloribus tempore facere dolores, magni qui atque velit quis perspiciatis quisquam ducimus omnis! Rem, porro doloremque rerum animi quibusdam assumenda. Provident vitae aspernatur aliquam itaque, quos perspiciatis reprehenderit eveniet est!</div>
+			<h1>Contactez nous !</h1>
+
+<p>Vous voulez un devis ? Avez vous une question ? Envoyer nous votre message et nous vous répondrons dans les plus brefs délais</p><br/>
+
+<form role="form"> 
+
+      <label aria-labeledby="nom-et-prenom" for="nom-et-prenom">Nom, Prénom <span class="red">*</span> :</label><br>
+      <input aria-required="true" aria-label="nom-et-prenom" role="input" id="nom-et-prenom" name="nom-et-prenom" type="text"><br>
+
+      <label aria-labeledby="email" for="email">Email <span class="red">*</span> :</label><br>
+      <input aria-required="true" aria-label="email" role="input" id="email" name="email" type="email"><br>
+
+      <label aria-labeledby="message" for="message">Message:</label><br>
+      <textarea aria-label="message" role="input" name="message" id="message"></textarea><br>
+
+      <input role="button" value="Envoyer" type="submit">
+
+</form>
+<br/>
+<p><span class="red">*</span> Champs obligatoires</p>
 		</div>
-<?php include 'footer.html'; ?>
+<?php
+include 'footer.html'; ?>
